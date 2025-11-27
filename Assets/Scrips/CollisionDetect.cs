@@ -23,8 +23,8 @@ public class CollisionDetect : MonoBehaviour
         mainCam.GetComponent<Animator>().Play("CollisionCam");
         yield return new WaitForSeconds(3);
         fadeOut.SetActive(true);
-
         yield return new WaitForSeconds(3);
+        MasterInfo.coinCount = 0;
         SceneManager.LoadScene(0);
     }
 
