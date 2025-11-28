@@ -24,8 +24,7 @@ public class CollisionDetect : MonoBehaviour
         yield return new WaitForSeconds(3);
         fadeOut.SetActive(true);
         yield return new WaitForSeconds(3);
-        MasterInfo.coinCount = 0;
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(3);
     }
 
 }
