@@ -74,7 +74,7 @@ public class FinalController : MonoBehaviour
     {
         int coins = MasterInfo.coinCount;
 
-        if (coins == 0) return "Você pode melhorar!";
+        if (coins == 0) return "Um dia você consegue!";
         if (coins < 10) return "Boa! Pegou algumas moedas!";
         if (coins < 30) return "Ótima corrida!";
         if (coins < 60) return "Excelente! Tá ficando bom!";
